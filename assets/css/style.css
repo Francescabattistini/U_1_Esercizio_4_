@@ -72,3 +72,76 @@ h1 {
   padding: 8px;
   border: 2px solid rgb(124, 124, 124);
 }
+.sorgente tr:nth-child(even) {
+  background-color: #cccccc;
+}
+.sorgente tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+table,
+td,
+th {
+  border: 1px solid #eee;
+  padding: 2px 5px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 20px;
+}
+
+th {
+  text-align: left;
+  background-color: #3366cc;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+tr.odd td,
+tr.odd th {
+  background-color: #d5e4ff;
+}
+caption {
+  font-weight: bold;
+  color: #000000;
+}
+aside div a {
+  color: #0099cc;
+  font-weight: 600;
+}
+.video {
+  width: 837px;
+  height: 600px;
+  border-radius: 90px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 78px;
+  margin: 0 auto;
+  color: #452c30;
+}
+.novita {
+  margin-top: 70px;
+  background-color: #ddddde;
+  text-align: center;
+  padding: 30px;
+}
+.novita p {
+  text-align: left;
+}
+input {
+  background: #ffffff;
+  color: rgb(132, 132, 132);
+  display: inline;
+  height: 90px;
+  width: 10em;
+  border: none;
+  font: bold 50px "Poppins", sans-serif;
+  text-shadow: none;
+  font-weight: 400;
+}
+button {
+  background: #0066a2;
+  color: white;
+  border: none;
+  height: 90px;
+  font: bold 50px "Poppins", sans-serif;
+  text-shadow: none;
+}
