@@ -8,6 +8,7 @@ body {
   display: block;
   margin: 0 auto;
   margin: 40px;
+  font-size: 40px;
 }
 img {
   width: 500px;
@@ -57,4 +58,17 @@ h1 {
   font-size: 80px;
   font-weight: 600;
   margin: 10px;
+}
+.autor {
+  color: #00000090;
+}
+.purple {
+  font-weight: 600;
+  color: #aa2072;
+}
+.gray {
+  background-color: #e3dedf;
+  border-radius: 23px;
+  padding: 8px;
+  border: 2px solid rgb(124, 124, 124);
 }
