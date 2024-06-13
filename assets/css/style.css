@@ -13,7 +13,8 @@ body {
 img {
   width: 500px;
 }
-header {
+header,
+footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     180deg,
@@ -117,13 +118,13 @@ h3 {
   margin: 0 auto;
   color: #452c30;
 }
-.novita {
+.card {
   margin-top: 70px;
   background-color: #ddddde;
   text-align: center;
   padding: 30px;
 }
-.novita p {
+.card p {
   text-align: left;
 }
 input {
@@ -144,4 +145,14 @@ button {
   height: 90px;
   font: bold 50px "Poppins", sans-serif;
   text-shadow: none;
+}
+h2 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: 600;
+  color: #313131;
+}
+.yoda {
+  color: #ff00fe;
 }
