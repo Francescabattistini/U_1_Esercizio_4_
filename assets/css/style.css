@@ -137,6 +137,10 @@ input {
   font: bold 50px "Poppins", sans-serif;
   text-shadow: none;
   font-weight: 400;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-style: dotted;
 }
 button {
   background: #0066a2;
